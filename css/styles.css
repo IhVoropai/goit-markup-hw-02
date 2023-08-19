@@ -8,7 +8,7 @@
 }
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--bodycolor);
+    color: #434445, var(--bodycolor);
     background-color: var(--background-color);
 }
 
@@ -65,7 +65,7 @@ button {
     text-decoration: underline;
 }
 
-.header-contacts {
+.contacts-list-item  {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
