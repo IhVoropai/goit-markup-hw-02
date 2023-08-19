@@ -8,7 +8,7 @@
 }
 body {
     font-family: "Roboto", sans-serif;
-    color: #434445, var(--bodycolor);
+    color: var(--bodycolor);
     background-color: var(--background-color);
 }
 
@@ -24,6 +24,9 @@ button {
     cursor: pointer;
 }
 
+address {
+    font-style: normal;
+}
 
 
 /*========= HEADER ===========*/
@@ -65,7 +68,7 @@ button {
     text-decoration: underline;
 }
 
-.contacts-list-item  {
+.header-contacts  {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -80,10 +83,6 @@ button {
 
 
 
-.contacts-list-item {
-    color: var(--body-color);
-    font-style: normal;
-}
 
 
 
@@ -141,7 +140,7 @@ button {
 }
 
 
-.p-of-second-section {
+.p-of-section {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--bodycolor);
@@ -183,14 +182,6 @@ button {
     color: var(--text-color);
 
 }
-
-.p-of-fourth-section {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--bodycolor);
-
-}
-
 
 
 .portfolio-btn {
