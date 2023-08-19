@@ -8,7 +8,7 @@
 }
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--body-color);
+    color: var(--bodycolor);
     background-color: var(--background-color);
 }
 
@@ -65,11 +65,11 @@ button {
     text-decoration: underline;
 }
 
-.contacts-list-item  {
+.header-contacts {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--body-color);
+    color: var(--bodycolor);
     text-decoration: none;
 }
 
@@ -144,7 +144,7 @@ button {
 .p-of-second-section {
     line-height: 1.5;
     letter-spacing: 0.02em;
-
+    color: var(--bodycolor);
 }
 
 .second-heading {
@@ -187,7 +187,7 @@ button {
 .p-of-fourth-section {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--body-color);
+    color: var(--bodycolor);
 
 }
 
